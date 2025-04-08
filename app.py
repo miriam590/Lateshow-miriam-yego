@@ -13,4 +13,6 @@ migrate.init_app(app, db)
 from routes import *
 
 if __name__ == '__main__':
-    app.run(port=5555, debug=True)
+    import os
+    port = int(os.environ.get('PORT', 5000))
+    app.run(port=port, debug=True)

@@ -4,7 +4,11 @@ A Flask API for tracking episodes, guests, and appearances on a late night talk 
 
 ## Setup
 
-1. Clone the repository
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/miriam590/late-show-api.git
+   cd late-show-api
+   ```
 2. Create and activate a virtual environment
 3. Install dependencies:
    ```bash
